@@ -1,0 +1,361 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  height: 87px;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  /* background-color: white; */
+}
+
+.navbar::before {
+  content: "";
+  /* background-color: rgba(27, 27, 27, 0.4); */
+  background-color: rgb(247 243 243 / 40%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+  top: 0px;
+  left: 0px;
+}
+
+.logo img {
+  margin: -4rem -6rem;
+  width: 130%;
+}
+
+.logo p {
+  margin: -1rem 1rem;
+  /* padding: 1rem; */
+  /* padding-left: 2rem; */
+  width: 73px;
+  font-family: cursive;
+}
+
+.nav-list li {
+  margin: 3rem 1rem;
+  list-style: none;
+}
+.nav-list li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  letter-spacing: 3px;
+}
+.nav-list li a:hover {
+  color: rgb(224, 14, 14);
+  cursor: pointer;
+}
+.nav-list ul {
+  display: flex;
+}
+.contain {
+  /* background-color: thistle; */
+  height: 286px;
+  background: url(/img/orange1.jpg) no-repeat center center/cover;
+  position: relative;
+  display: grid;
+  z-index: 0;
+  display: block;
+}
+.contain::before {
+  content: "";
+  background: rgba(27, 27, 27, 0.4);
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  /* opacity: 0.8;  */
+}
+
+.about {
+  padding: 3rem 9rem;
+}
+
+.stage {
+  border-left: 4px solid #585151;
+  padding-left: 24px;
+}
+.stage h2 {
+  font-size: 50px;
+  color: #f7f3f3;
+  font-weight: 500;
+}
+.stage p {
+  font-size: 20px;
+  color: #f7f3f3;
+  width: 58%;
+  line-height: 32px;
+  margin: 1rem 0rem;
+}
+
+.step ul {
+  display: flex;
+}
+.step ul li {
+  list-style: none;
+  color: #f7f3f3;
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+
+.step ul li a {
+  text-decoration: none;
+  color: #0e0d0d;
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+.step ul li a i {
+  color: #0e0d0d;
+  letter-spacing: 8px;
+}
+
+.new {
+  padding: 4.5rem 0rem;
+  /* background: antiquewhite; */
+  /* height: 1000px; */
+}
+
+.external {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  /* position: relative; */
+}
+
+.internal1 {
+  background: url(/img/thomas-gamstaetter-IFGVE61AAno-unsplash.jpg) no-repeat
+    center/cover;
+  height: 290px;
+  width: 424px;
+  padding: 29px 32px;
+  margin: 1rem 1.1rem;
+  border-radius: 16px;
+  /* position: absolute; */
+}
+.center1 {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1.5rem 0rem;
+}
+.internal2 {
+  background: url(/img/thomas-gamstaetter-IFGVE61AAno-unsplash.jpg) no-repeat
+    center/cover;
+  height: 290px;
+  width: 424px;
+  padding: 29px 32px;
+  margin: 1rem 1.1rem;
+  border-radius: 16px;
+}
+.center2 {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1.5rem 0rem;
+}
+.internal3 {
+  background: url(/img/thomas-gamstaetter-IFGVE61AAno-unsplash.jpg) no-repeat
+    center/cover;
+  height: 290px;
+  width: 424px;
+  padding: 29px 32px;
+  margin: 1rem 1.1rem;
+  border-radius: 16px;
+}
+.center3 {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1.5rem 0rem;
+}
+.center3 a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #585151;
+}
+.center3 a h2 {
+  margin: 0rem 1rem;
+}
+.center3 p {
+  color: #585151;
+  /* margin: 4rem 1rem; */
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 1rem 1rem;
+}
+.center2 a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #585151;
+}
+.center2 a h2 {
+  margin: 0rem 1rem;
+}
+.center2 p {
+  color: #585151;
+  /* margin: 4rem 1rem; */
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 1rem 1rem;
+}
+.center1 a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #585151;
+}
+.center1 a h2 {
+  margin: 0rem 1rem;
+}
+.center1 p {
+  color: #585151;
+  /* margin: 4rem 1rem; */
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 1rem 1rem;
+}
+
+.start {
+}
+.flex {
+  /* background: aqua; */
+  display: flex;
+  height: 600px;
+  margin-left: 3.8rem;
+}
+.pics {
+  /* padding: 0rem 2.3rem; */
+  border: 1px solid #e8e0e0;
+  margin: 0rem 1rem;
+  /* width: 79%; */
+  height: 500px;
+  width: 426px;
+  background: #f9f1f1;
+  border-radius: 17px;
+  border-bottom-left-radius: initial;
+  border-bottom-right-radius: initial;
+  margin: 0rem 1rem;
+}
+
+.pics img {
+  width: 424px;
+  height: 285px;
+  border-radius: 17px;
+  border-bottom-left-radius: initial;
+  border-bottom-right-radius: initial;
+}
+.tech h2 {
+  font-size: 28px;
+  margin: 2rem 2rem;
+}
+.tech p {
+  font-size: 22px;
+  margin: -1rem 2rem;
+  width: 82%;
+  line-height: 34px;
+}
+
+.bottom {
+  background-color: rgb(39, 33, 33);
+  color: #f7e9e9;
+}
+
+.boot {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 0.3fr);
+  /* text-align: center; */
+  /* height: 450px; */
+  padding: 4rem 2rem;
+}
+
+.bottom-sec h1 {
+  font-size: 40px;
+}
+.bottom-se h1 {
+  margin-left: 11rem;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.bottom-s {
+  position: relative;
+}
+.bottom-s h1 {
+  /* position: absolute; */
+  margin-left: 3rem;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.bottom-stage {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  /* display: inline-flex */
+  /* position: absolute; */
+}
+
+.bottom-se ul {
+  margin-top: 2rem;
+  margin-left: 11rem;
+  letter-spacing: 2px;
+}
+
+.bottom-se ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: auto;
+  color: antiquewhite;
+}
+.bottom-se ul li {
+  list-style: none;
+}
+
+.newpara {
+  width: 118%;
+  font-size: 22px;
+  line-height: 35px;
+  margin-top: 2rem;
+}
+
+.bottom-stage img {
+  width: 100px;
+  border-radius: 8px;
+  height: 76px;
+}
+
+.bottom-stage p {
+  margin: 0px 10px;
+  display: inline-block;
+  font-size: 22px;
+  position: absolute;
+  color: #707477;
+}
+.bottom-stage a {
+  margin: 33px 11px;
+  display: inline-block;
+  position: absolute;
+  color: #707477;
+  letter-spacing: 1.8px;
+  text-decoration: none;
+}
+
+.container {
+  background-color: rgb(39, 33, 33);
+  padding: 2rem;
+  text-align: center;
+  font-size: 21px;
+  color: #707477;
+  letter-spacing: 1.3px;
+  cursor: pointer;
+}
+.container a{
+  color: #a0abb3;
+  text-decoration: none;
+}

@@ -1,0 +1,416 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+.navbar::before {
+  content: "";
+  /* background-color: rgb(57 93 21); */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+  top: 0px;
+  left: 0px;
+}
+
+.logo img {
+  margin: -4rem -6rem;
+  width: 130%;
+}
+
+.logo p {
+  margin: -1rem 1rem;
+  /* padding: 1rem; */
+  /* padding-left: 2rem; */
+  width: 73px;
+  font-family: cursive;
+}
+
+.nav-list li {
+  margin: 3rem 1rem;
+  list-style: none;
+}
+.nav-list li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  letter-spacing: 3px;
+}
+.nav-list li a:hover {
+  color: rgb(224, 14, 14);
+  cursor: pointer;
+}
+.nav-list ul {
+  display: flex;
+}
+
+.intro {
+  height: 550px;
+
+  /* background-color: brown; */
+}
+
+.introduction {
+  background: url(/img/fruits.jpg) no-repeat center/cover;
+  height: 500px;
+  width: 100%;
+  padding: 5rem 5rem;
+  /* filter: opacity(0.9); */
+}
+
+.introduction h1 {
+  margin: 1rem 0rem;
+  color: antiquewhite;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.introduction h2 {
+  /* margin: 1rem 0rem; */
+  color: antiquewhite;
+  font-size: 32px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.introduction p {
+  margin: 1rem 0rem;
+  color: rgb(26, 235, 106);
+  width: 50%;
+  color: #f7e9e9;
+  font-size: 25px;
+}
+.introduction button {
+  margin: 1rem 0rem;
+  padding: 0.8rem 2rem;
+  border-radius: 7px;
+  background: #90ad70;
+  font-size: 18px;
+  color: antiquewhite;
+}
+.introduction button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.about {
+  display: flex;
+  /* background-color: aquamarine; */
+  height: 500px;
+  justify-content: center;
+}
+
+.items img {
+  width: 370px;
+  border-radius: 20px;
+}
+.items h2 {
+  margin: 1rem 1rem;
+  font-size: 28px;
+}
+.items p {
+  font-size: 19px;
+  width: 76%;
+  margin-left: 1rem;
+  line-height: 25px;
+}
+
+.brief {
+  width: 54%;
+}
+.brief h1 {
+  width: 81%;
+  font-size: 40px;
+  margin-left: 3rem;
+}
+.brief p {
+  width: 73%;
+  font-size: 24px;
+  margin: 1rem 3rem;
+}
+
+.home {
+  background: url(/img/plant.jpg) no-repeat center center/cover;
+  height: 562px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pics1 {
+  height: 23rem;
+  width: 30rem;
+}
+
+.pics1 h3 {
+  font-size: 36px;
+  color: aliceblue;
+}
+.pics h2 {
+  margin: 38px 0px;
+  font-size: 26px;
+  color: #000000;
+}
+
+.pics2 p {
+  font-size: 21px;
+  font-family: cursive;
+  margin: -2.7rem 0rem;
+}
+.pics2 h2 {
+  font-size: 26px;
+  color: #000000;
+  margin: 3rem 0rem;
+}
+.pics p {
+  margin: -33px 0px;
+  /* letter-spacing: 0.8px; */
+  font-size: 21px;
+  font-family: cursive;
+}
+
+.pics img {
+  width: 550px;
+  border-radius: 20px;
+  margin-left: 6rem;
+}
+
+.service {
+  margin: 6rem 0rem;
+}
+.server {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  justify-content: center;
+}
+.class img {
+  width: 400px;
+  height: 268px;
+  margin: -1rem 0rem;
+}
+
+.class1 {
+  width: 400px;
+  height: 300px;
+  padding: 1rem;
+  margin: -1rem 0rem;
+  text-align: center;
+  /* background-color: rosybrown; */
+}
+.class1 h2 {
+  margin: 5rem 0rem;
+  font-size: 26px;
+  font-family: cursive;
+}
+.class1 p {
+  margin: -4rem 1rem;
+  font-size: 19px;
+  color: #231f1f;
+}
+
+.add {
+  display: flex;
+  height: 500px;
+  /* justify-content: center; */
+  background: url(/img/pumkin.jpg) no-repeat center center/cover;
+  align-items: center;
+  padding: 3rem 7rem;
+}
+.fresh {
+  border: 1px solid white;
+  height: 269px;
+  width: 342px;
+  border-radius: 20px;
+  margin: 1rem 2.4rem;
+  padding: 0rem 1rem;
+  background-color: white;
+}
+.fresh p {
+  width: 93%;
+  font-size: 16px;
+  font-family: cursive;
+  margin: 1rem 0rem;
+}
+
+.fresh h2 {
+  margin: -3.3rem 6rem;
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
+.fresh img {
+  width: 25%;
+  border-radius: 50%;
+  border: 2px solid green;
+}
+
+.describe {
+  background-color: white;
+  height: 495px;
+  /* display: grid;
+    grid-template-columns: repeat(2,0fr); */
+
+  /* you can also use display: flex: ; */
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4rem;
+}
+
+.node img {
+  width: 525px;
+  height: 373px;
+  border-radius: 20px;
+}
+
+/* .fold {
+  margin-left: 8rem;
+} */
+.font h2 {
+  margin-top: 0.6rem;
+}
+.font p {
+  width: 100%;
+  line-height: 21px;
+  margin: 1rem 0rem;
+}
+
+.head h1 {
+  font-size: 31px;
+  width: 79%;
+  margin-left: 1rem;
+  margin-right: -22rem;
+  letter-spacing: 3px;
+}
+
+.font {
+  border: 1px solid #ddecdd;
+  margin: 1rem rem;
+  height: 258px;
+  /* width: 97%; */
+  margin: 1rem 0.7rem;
+  padding: 1rem;
+  width: 270px;
+  border-radius: 15px;
+}
+.font a i {
+  font-size: 34px;
+  color: #77b377;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 0.2fr);
+}
+
+.bottom {
+  background-color: rgb(39, 33, 33);
+  color: #f7e9e9;
+}
+
+.boot {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 0.3fr);
+  /* text-align: center; */
+  /* height: 450px; */
+  padding: 4rem 2rem;
+}
+
+.bottom-sec h1 {
+  font-size: 40px;
+}
+.bottom-se h1 {
+  margin-left: 11rem;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.bottom-s {
+  position: relative;
+}
+.bottom-s h1 {
+  /* position: absolute; */
+  margin-left: 3rem;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.bottom-stage {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  /* display: inline-flex */
+  /* position: absolute; */
+}
+
+.bottom-se ul {
+  margin-top: 2rem;
+  margin-left: 11rem;
+  letter-spacing: 2px;
+}
+
+.bottom-se ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: auto;
+  color: antiquewhite;
+}
+.bottom-se ul li {
+  list-style: none;
+}
+
+.newpara {
+  width: 118%;
+  font-size: 22px;
+  line-height: 35px;
+  margin-top: 2rem;
+}
+
+.bottom-stage img {
+  width: 100px;
+  border-radius: 8px;
+  height: 76px;
+}
+
+.bottom-stage p {
+  margin: 0px 10px;
+  display: inline-block;
+  font-size: 22px;
+  position: absolute;
+  color: #707477;
+}
+.bottom-stage a {
+  margin: 33px 11px;
+  display: inline-block;
+  position: absolute;
+  color: #707477;
+  letter-spacing: 1.8px;
+  text-decoration: none;
+}
+
+.container {
+  background-color: rgb(39, 33, 33);
+  padding: 2rem;
+  text-align: center;
+  font-size: 21px;
+  color: #707477;
+  letter-spacing: 1.3px;
+  cursor: pointer;
+}
+.container a{
+  color: #a0abb3;
+  text-decoration: none;
+}
